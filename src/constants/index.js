@@ -29,10 +29,10 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 220, suffix: "+", label: "DSA Problems Solved" },
+  { value: 10, suffix: "+", label: " Real-World Projects Built"},
+  { value: 6, suffix: "+", label: "Production-Ready Projects Deployed"},
+  { value: 5, suffix: "+",label: "Collaborated in Team Hackathons & Group Projects" },
 ];
 
 const logoIconsList = [
@@ -74,8 +74,8 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Problem Solving",
+    desc: "Skilled in tackling complex challenges with innovative solutions.",
   },
   {
     imgPath: "/images/chat.png",
@@ -84,7 +84,7 @@ const abilities = [
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
+    title: "Fast Execution",
     desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
   },
 ];
@@ -249,23 +249,23 @@ const testimonials = [
 
 const socialImgs = [
   {
-    name: "insta",
-    url: "https://www.instagram.com/",
-    imgPath: "/images/insta.png",
+    name: "leetcode",
+    url: "https://leetcode.com/u/velocity404/",
+    imgPath: "/images/leetcode1.png",
   },
   {
-    name: "fb",
-    url: "https://www.facebook.com/",
-    imgPath: "/images/fb.png",
+    name: "gmail",
+    url: "mailtoankitkumar01@gmail.com",
+    imgPath: "/images/gmail.png",
   },
   {
-    name: "x",
-    url: "https://www.x.com/",
-    imgPath: "/images/x.png",
+    name: "github",
+    url: "https://github.com/AnkitKumarHub",
+    imgPath: "/images/github.png",
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/",
+    url: "https://www.linkedin.com/in/ankkitkumar/",
     imgPath: "/images/linkedin.png",
   },
 ];

@@ -21,7 +21,7 @@ const Hero = () => {
 
       <div className="hero-layout">
         {/* Left: Hero Content */}
-        <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
+        {/* <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
@@ -57,6 +57,81 @@ const Hero = () => {
               id="button"
               text="See my Work"
             />
+          </div>
+        </header> */}
+
+        {/* Left: Hero Content */}
+        <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
+          <div className="flex flex-col gap-5">
+            {/* Hero Headline */}
+            <div className="hero-text">
+              <h1 className="text-[2rem] md:text-[3.5rem] font-bold leading-tight">
+                Hi, I'm{" "}
+                <span className="text-primary font-semibold">Ankit Kumar</span>
+              </h1>
+              <p className="text-white-50 text-base md:text-xl mt-1">
+                MERN Stack Developer & DSA Enthusiast
+              </p>
+            </div>
+
+            {/* Animated Word Section */}
+            <div className="hero-text">
+              <h2 className="text-[1.6rem] md:text-[2.5rem] font-semibold leading-snug">
+                Shaping{" "}
+                <span className="slide inline-block align-middle h-[2.8rem] md:h-[3rem] overflow-hidden relative">
+                  <span className="wrapper block transition-transform duration-500 ease-in-out will-change-transform">
+                    {words.map((word, index) => (
+                      <span
+                        key={word.text + index}
+                        className="flex items-center md:gap-3 gap-1 h-[2.8rem] md:h-[3rem]"
+                      >
+                        <img
+                          src={word.imgPath}
+                          alt={word.text}
+                          className="xl:size-10 md:size-8 size-6 p-1 rounded-full bg-white-50"
+                        />
+                        <span className="text-base md:text-2xl">
+                          {word.text}
+                        </span>
+                      </span>
+                    ))}
+                  </span>
+                </span>
+              </h2>
+              <h2 className="text-[1.6rem] md:text-[2.5rem] font-semibold">
+                into Real Projects
+              </h2>
+              <h2 className="text-[1.6rem] md:text-[2.5rem] font-semibold">
+                that Deliver Results
+              </h2>
+            </div>
+
+            {/* Subheading */}
+            <p className="text-white-50 md:text-base text-sm relative z-10 pointer-events-none max-w-xl">
+              I build full-stack apps using <strong>React</strong>,{" "}
+              <strong>Node.js</strong>, and <strong>MongoDB</strong>. With 220+
+              DSA problems solved and 6+ deployed projects, I'm ready to
+              contribute to real-world software teams.
+            </p>
+
+            {/* CTA Buttons */}
+
+            <div className="flex flex-col md:flex-row gap-4 mt-4 w-full md:w-auto">
+              <Button
+                text="📄 View Resume"
+                className="w-full md:w-60"
+                href="https://shorturl.at/5KQk9"
+              />
+              <Button
+                text="💬 Let's Connect"
+                className="w-full md:w-60"
+                onClick={() => {
+                  document
+                    .getElementById("contact")
+                    ?.scrollIntoView({ behavior: "smooth" });
+                }}
+              />
+            </div>
           </div>
         </header>
 

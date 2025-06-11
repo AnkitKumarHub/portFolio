@@ -50,7 +50,7 @@ const ShowcaseSection = () => {
           {/* LEFT */}
           <div className="first-project-wrapper" ref={project1Ref}>
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde" />
+              <img src="/images/project1.png" alt="Ryde" className="w-full h-full"/>
             </div>
             <div className="text-content">
               <h2>
@@ -69,10 +69,11 @@ const ShowcaseSection = () => {
           <div className="project-list-wrapper overflow-hidden">
             {/* 1st Secondary Project */}
             <div className="project" ref={project2Ref}>
-              <div className="image-wrapper bg-[#ffefdb]">
+              <div className="image-wrapper bg-[#ffefdb] p-4 flex items-center justify-center rounded-xl">
                 <img
                   src="/images/project2.png"
                   alt="Library Management Platform"
+                  className="w-auto "
                 />
               </div>
               <h2>Library Management Platform</h2>
@@ -80,8 +81,8 @@ const ShowcaseSection = () => {
 
             {/* 2nd Secondary Project */}
             <div className="project" ref={project3Ref}>
-              <div className="image-wrapper bg-[#ffe7eb]">
-                <img src="/images/project3.png" alt="YC Directory" />
+              <div className="image-wrapper bg-[#e5e7eb]  p-4 flex items-center justify-center rounded-xl">
+                <img src="/images/project3.png" alt="YC Directory" className="w-auto" />
               </div>
               <h2>YC Directory- A StartUp shocase app</h2>
             </div>
