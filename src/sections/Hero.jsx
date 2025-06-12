@@ -116,7 +116,7 @@ const Hero = () => {
 
             {/* CTA Buttons */}
 
-            <div className="flex flex-col md:flex-row gap-4 mt-4 w-full md:w-auto">
+            {/* <div className="flex flex-col md:flex-row gap-4 mt-4 w-full md:w-auto">
               <Button
                 text="📄 View Resume"
                 className="w-full md:w-60 cursor-pointer"
@@ -128,6 +128,23 @@ const Hero = () => {
                 onClick={() => {
                   document
                     .getElementById("contact")
+                    ?.scrollIntoView({ behavior: "smooth" });
+                }}
+              />
+            </div> */}
+
+            <div className="flex flex-col md:flex-row gap-4 mt-4 w-full md:w-auto">
+              <Button
+                text="📄 View Resume"
+                className="w-full md:w-60 cursor-pointer"
+                href="https://shorturl.at/5KQk9"
+              />
+              <Button
+                text="See my Work"
+                className="w-full md:w-60 cursor-pointer"
+                onClick={() => {
+                  document
+                    .getElementById("work")
                     ?.scrollIntoView({ behavior: "smooth" });
                 }}
               />
