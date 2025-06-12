@@ -17,7 +17,7 @@ const NavBar = () => {
     };
   }, []);
   return (
-    <header className={`navbar ${scrolled ? 'scrolled' : 'not-scrolled'}`}>
+    <header className={`navbar ${scrolled ? "scrolled" : "not-scrolled"}`}>
       <div className="inner">
         <a className="logo" href="#hero">
           Ankit Kumar
@@ -27,10 +27,17 @@ const NavBar = () => {
           <ul>
             {navLinks.map(({ link, name }) => (
               <li key={name} className="group">
-                <a href={link}>
-                  <span>{name}</span>
-                  <span className="underline"></span>
-                </a>
+                {link.startsWith("http") ? (
+                  <a href={link} target="_blank" rel="noopener noreferrer">
+                    <span>{name}</span>
+                    <span className="underline"></span>
+                  </a>
+                ) : (
+                  <a href={link}>
+                    <span>{name}</span>
+                    <span className="underline"></span>
+                  </a>
+                )}
               </li>
             ))}
           </ul>

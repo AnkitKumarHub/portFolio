@@ -107,7 +107,7 @@ const Hero = () => {
             </div>
 
             {/* Subheading */}
-            <p className="text-white-50 md:text-base text-sm relative z-10 pointer-events-none max-w-xl">
+            <p className="text-white-50 md:text-base text-sm relative z-10 pointer-events-none max-w-xl ">
               I build full-stack apps using <strong>React</strong>,{" "}
               <strong>Node.js</strong>, and <strong>MongoDB</strong>. With 220+
               DSA problems solved and 6+ deployed projects, I'm ready to
@@ -119,12 +119,12 @@ const Hero = () => {
             <div className="flex flex-col md:flex-row gap-4 mt-4 w-full md:w-auto">
               <Button
                 text="📄 View Resume"
-                className="w-full md:w-60"
+                className="w-full md:w-60 cursor-pointer"
                 href="https://shorturl.at/5KQk9"
               />
               <Button
                 text="💬 Let's Connect"
-                className="w-full md:w-60"
+                className="w-full md:w-60 cursor-pointer"
                 onClick={() => {
                   document
                     .getElementById("contact")
