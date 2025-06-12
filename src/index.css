@@ -470,3 +470,12 @@ section {
 .card:hover::before {
   opacity: 1;
 }
+
+
+
+.small-exp-img {
+  max-width: 220px; 
+  height: auto;
+  display: block;
+  margin: 0 ;
+}
