@@ -126,7 +126,7 @@ const ShowcaseSection = () => {
             <div className="image-wrapper">
               <img
                 src="/images/project1.png"
-                alt="Ryde"
+                alt="DevTinder"
                 className="w-full h-full"
               />
             </div>
@@ -139,20 +139,28 @@ const ShowcaseSection = () => {
                   className="flex flex-wrap gap-2 text-sm font-semibold"
                 >
                   <span className="px-3 py-1 rounded-full bg-gray-100 text-gray-700">
-                    React Native
+                    React
                   </span>
                   <span className="px-3 py-1 rounded-full bg-gray-100 text-gray-700">
-                    Expo
+                    Node.js
                   </span>
                   <span className="px-3 py-1 rounded-full bg-gray-100 text-gray-700">
-                    TailwindCSS
+                    Express
                   </span>
-                  {/* Add more tags as needed */}
+                  <span className="px-3 py-1 rounded-full bg-gray-100 text-gray-700">
+                    MongoDB
+                  </span>
+                  <span className="px-3 py-1 rounded-full bg-gray-100 text-gray-700">
+                    Socket.io
+                  </span>
+                  <span className="px-3 py-1 rounded-full bg-gray-100 text-gray-700">
+                    Redux Toolkit
+                  </span>
                 </div>
                 {/* Buttons */}
                 <div ref={buttons1Ref} className="flex gap-2">
                   <a
-                    href="https://your-live-demo-link.com"
+                    href="https://dev-tinder-pied-seven.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1 px-4 py-2 rounded-full border border-gray-200 bg-white text-sm font-semibold text-gray-800 shadow-sm hover:bg-gray-100 hover:shadow transition"
@@ -169,7 +177,7 @@ const ShowcaseSection = () => {
                     Live Demo
                   </a>
                   <a
-                    href="https://github.com/your-repo"
+                    href="https://github.com/AnkitKumarHub/DevTinder-UI"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1 px-4 py-2 rounded-full border border-gray-200 bg-white text-sm font-semibold text-gray-800 shadow-sm hover:bg-gray-100 hover:shadow transition"
@@ -186,12 +194,13 @@ const ShowcaseSection = () => {
                 </div>
               </div>
               <h2 className="text-xl md:text-2xl font-bold leading-snug">
-                On-demand rides made simple with a powerful, User friendly app
-                called ryde
+                DevTinder – Developer Networking & Collaboration Web App
               </h2>
               <p className="text-white-50 md:text-xl">
-                An App built with react native, Expo & TailwindCSS for a fast,
-                User-Friendly experience.
+                A MERN stack-based platform that connects developers through
+                interest-based matching, swipe functionality, and real-time
+                chat. Users can create profiles, explore potential
+                collaborators, and build connections for projects or learning.
               </p>
             </div>
           </div>
@@ -216,20 +225,25 @@ const ShowcaseSection = () => {
                   className="flex flex-wrap gap-2 text-sm font-semibold"
                 >
                   <span className="px-3 py-1 rounded-full bg-gray-100 text-gray-700">
-                    React
+                    EJS
+                  </span>
+                  <span className="px-3 py-1 rounded-full bg-gray-100 text-gray-700">
+                    JavaScript
                   </span>
                   <span className="px-3 py-1 rounded-full bg-gray-100 text-gray-700">
                     Node.js
                   </span>
                   <span className="px-3 py-1 rounded-full bg-gray-100 text-gray-700">
+                    Express
+                  </span>
+                  <span className="px-3 py-1 rounded-full bg-gray-100 text-gray-700">
                     MongoDB
                   </span>
-                  {/* Add more tags as needed */}
                 </div>
                 {/* Buttons */}
                 <div ref={buttons2Ref} className="flex gap-2">
                   <a
-                    href="https://your-live-demo-link.com"
+                    href="https://wander-lust-864t.onrender.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1 px-4 py-2 rounded-full border border-gray-200 bg-white text-sm font-semibold text-gray-800 shadow-sm hover:bg-gray-100 hover:shadow transition"
@@ -246,7 +260,7 @@ const ShowcaseSection = () => {
                     Live Demo
                   </a>
                   <a
-                    href="https://github.com/your-repo"
+                    href="https://github.com/AnkitKumarHub/Wander-lust"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1 px-4 py-2 rounded-full border border-gray-200 bg-white text-sm font-semibold text-gray-800 shadow-sm hover:bg-gray-100 hover:shadow transition"
@@ -264,7 +278,7 @@ const ShowcaseSection = () => {
               </div>
               {/* Heading Row */}
               <h2 className="mt-3 text-lg md:text-xl font-bold leading-snug">
-                Library Management Platform
+                Wanderlust – Discover & Book Unique Stays
               </h2>
             </div>
 
@@ -288,17 +302,20 @@ const ShowcaseSection = () => {
                     React
                   </span>
                   <span className="px-3 py-1 rounded-full bg-gray-100 text-gray-700">
-                    Express
+                    Firebase 
                   </span>
                   <span className="px-3 py-1 rounded-full bg-gray-100 text-gray-700">
-                    MongoDB
+                    Framer Motion 
+                  </span>
+                  <span className="px-3 py-1 rounded-full bg-gray-100 text-gray-700">
+                    Tailwind CSS
                   </span>
                   {/* Add more tags as needed */}
                 </div>
                 {/* Buttons */}
                 <div ref={buttons3Ref} className="flex gap-2">
                   <a
-                    href="https://your-live-demo-link.com"
+                    href="https://github.com/AnkitKumarHub/theMetaverseProject"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1 px-4 py-2 rounded-full border border-gray-200 bg-white text-sm font-semibold text-gray-800 shadow-sm hover:bg-gray-100 hover:shadow transition"
@@ -315,7 +332,7 @@ const ShowcaseSection = () => {
                     Live Demo
                   </a>
                   <a
-                    href="https://github.com/your-repo"
+                    href="https://github.com/AnkitKumarHub/theMetaverseProject"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1 px-4 py-2 rounded-full border border-gray-200 bg-white text-sm font-semibold text-gray-800 shadow-sm hover:bg-gray-100 hover:shadow transition"
@@ -333,7 +350,7 @@ const ShowcaseSection = () => {
               </div>
               {/* Heading Row */}
               <h2 className="mt-3 text-lg md:text-xl font-bold leading-snug">
-                YC Directory - A StartUp showcase app
+                Metaverse Journal: Next-Gen Crypto & Web3 Publishing
               </h2>
             </div>
           </div>
