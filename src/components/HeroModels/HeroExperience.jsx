@@ -13,7 +13,7 @@ const HeroExperience = () => {
     query: "(max-width: 768px)",
   });
   return (
-    <Canvas camera={{ position: [0, 0, 15], fov: 45 }}>
+    <Canvas camera={{ position: [0, 0, isMobile? 18 : 15], fov: isMobile? 50 : 45 }}>
       <OrbitControls
         enablePan={false}
         enableZoom={!isTablet}
@@ -27,8 +27,8 @@ const HeroExperience = () => {
       {/* <Particles count={100}/> */}
 
       <group
-        scale={isMobile? 0.7 : 1}
-        position={[0, -3.5, 0]}
+        scale={isMobile? 0.65 : isTablet? 0.8 : 1}
+        position={isMobile?[0, -5, 0]: isTablet? [0, -4.0, 0]: [0, -3.5, 0]}
         rotation={[0, -Math.PI / 4, 0]}
       > 
       <Room />

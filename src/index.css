@@ -165,10 +165,20 @@ section {
       @apply h-full flex flex-col justify-between xl:w-[60%];
 
       .image-wrapper {
-        @apply xl:h-[70vh] md:h-[50vh] h-96 relative;
+        /* @apply xl:h-[70vh] md:h-[50vh] h-96 relative; */
+          /* @apply xl:h-[70vh] md:h-[50vh] h-96 relative flex justify-center items-center ;  */
+
+
+          @apply xl:h-[70vh] md:h-[50vh] h-82 relative;
+
+           /* Add these new styles for mobile */
+      @apply bg-[#f8f8f8] md:bg-transparent p-4 md:p-0 rounded-2xl md:rounded-none;
 
         img {
-          @apply w-full h-full object-cover rounded-xl absolute inset-0;
+          /* @apply w-full h-full object-cover rounded-xl absolute inset-0; */
+          
+
+           @apply w-full h-full object-contain md:object-cover rounded-xl;
         }
       }
 
@@ -479,3 +489,16 @@ section {
   display: block;
   margin: 0 ;
 }
+
+/* @media (max-width: 768px) {
+  .first-project-wrapper .image-wrapper {
+    margin: 0;
+    border-radius: 12px;
+    height: 300px;
+    
+    img {
+      object-fit: contain;
+      padding: 0.5rem;
+    }
+  }
+} */

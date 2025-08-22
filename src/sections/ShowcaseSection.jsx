@@ -123,13 +123,28 @@ const ShowcaseSection = () => {
             </div>
           </div> */}
           <div className="first-project-wrapper" ref={project1Ref}>
-            <div className="image-wrapper">
+            {/* <div className="image-wrapper rounded-xl overflow-hidden relative w-full h-[300px] md:h-[500px]"> */}
+            {/* <div className="image-wrapper bg-black p-4 flex items-center justify-center rounded-xl">
               <img
                 src="/images/project1.png"
                 alt="DevTinder"
-                className="w-full h-full"
+                //           className="absolute inset-0 w-full h-full object-cover "
+                //           style={{
+                //   objectPosition: 'center',
+                // }}
+                className="w-full h-full object-contain rounded-xl"
+              />
+            </div> */}
+
+            {/* updated one as of 22-08-2025*/}
+            <div className="image-wrapper bg-[#f8f8f8] md:bg-transparent p-4 md:p-0 rounded-2xl">
+              <img
+                src="/images/project1.png"
+                alt="DevTinder"
+                className="w-full h-[300px] md:h-full object-contain md:object-cover rounded-xl"
               />
             </div>
+
             <div className="text-content mt-4">
               {/* Tags and Buttons Row */}
               <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
@@ -302,10 +317,10 @@ const ShowcaseSection = () => {
                     React
                   </span>
                   <span className="px-3 py-1 rounded-full bg-gray-100 text-gray-700">
-                    Firebase 
+                    Firebase
                   </span>
                   <span className="px-3 py-1 rounded-full bg-gray-100 text-gray-700">
-                    Framer Motion 
+                    Framer Motion
                   </span>
                   <span className="px-3 py-1 rounded-full bg-gray-100 text-gray-700">
                     Tailwind CSS
