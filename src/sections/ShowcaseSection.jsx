@@ -137,7 +137,7 @@ const ShowcaseSection = () => {
             </div> */}
 
             {/* updated one as of 22-08-2025*/}
-            <div className="image-wrapper bg-[#f8f8f8] md:bg-transparent p-4 md:p-0 rounded-2xl">
+            <div className="image-wrapper bg-[#f8f8f8] md:bg-transparent p-2 md:p-0 rounded-2xl">
               <img
                 src="/images/project1.png"
                 alt="DevTinder"
