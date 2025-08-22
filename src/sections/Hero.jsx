@@ -137,7 +137,7 @@ const Hero = () => {
               <Button
                 text="📄 View Resume"
                 className="w-full md:w-60 cursor-pointer"
-                href="https://shorturl.at/5KQk9"
+                href="https://shorturl.at/b1htq"
               />
               <Button
                 text="See my Work"
@@ -153,13 +153,22 @@ const Hero = () => {
         </header>
 
         {/* Right: 3D Model */}
-        <figure>
+        <figure className="hidden md:block">
           <div className="hero-3d-layout">
             <HeroExperience />
           </div>
         </figure>
       </div>
-      <AnimatedCounter />
+
+      {/* updated animated counter positioning for mobile devices   */}
+      {/* <AnimatedCounter /> */}
+
+      <div className="relative md:-mt-20 -mt-58">
+        {" "}
+        {/* Adjust margin-top for mobile/desktop */}
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/80 pointer-events-none"></div>
+        <AnimatedCounter />
+      </div>
     </section>
   );
 };
